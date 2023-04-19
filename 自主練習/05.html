@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <!-- <ul>：unordered list，無排序的項目，下層只能接li -->
+    <!-- list-style-type: disc; disc是預設值 -->
+    <!-- 全台各地飲料店名稱：
+    WHO'S TEA 鬍子茶
+    布萊恩紅茶
+    拾覺細做輕飲
+    迷客夏
+    良辰吉時
+    小確幸紅茶牛奶合作社 -->
+    <h3>全台各地飲料店名稱：</h3>
+    <ul>
+        <li>WHO'S TEA 鬍子茶</li>
+        <li>布萊恩紅茶</li>
+        <li>拾覺細做輕飲</li>
+        <li>迷客夏</li>
+        <li>良辰吉時</li>
+        <li>小確幸紅茶牛奶合作社</li>
+    </ul>
+    <hr>
+    <h4>全台連鎖店:</h4>
+    <ul style="list-style-type: square;">
+        <li>胖老爹</li>
+        <li>炸雞洋行</li>
+        <li>拿坡里</li>
+        <li>頂呱呱</li>
+        <li>昌平炸雞王</li>
+    </ul>
+    <!-- 試試看，如果想要改變項目符號的圖示，要幫<ul>設定哪一項屬性? 有哪幾種圖示? -->
+    <!-- list-style-type:circle -->
+    <!-- list-style-type:square -->
+    <!-- list-style-type:none -->
+
+    <!-- ol：ordered list，排序的項目，下層只能是li -->
+    <!-- 每日上課守則：
+    預習
+    練習
+    複習 -->
+    <h4>每日上課守則1：</h4>
+    <ol>
+        <li>預習</li>
+        <li>練習</li>
+        <li>複習</li>
+    </ol>
+
+    <!-- 試試看，能不能改變<ol>清單編號類型? 從123改成ABC或者其他? (type="A")
+                只能從1號開始編嗎? (start="5" reversed) -->
+    <h4>每日上課守則2：</h4>
+    <ol type="1" start="5" reversed>
+        <li>預習</li>
+        <li>練習</li>
+        <li>複習</li>
+    </ol>
+    <h4>每日上課守則3：</h4>
+    <ol type="A" start="5" reversed>
+        <li>預習</li>
+        <li>練習</li>
+        <li>複習</li>
+    </ol>
+    <h4>每日上課守則4：</h4>
+    <ol>
+        <li>預習</li>
+        <li value="5">練習</li>
+        <li>複習</li>
+    </ol>
+    <hr>
+    <h3>這一堂課會學習到：</h3>
+    <dl>
+        <dt>HTML</dt>
+        <dd>HTML的全名是HyperText Markup Language，編寫網頁的語言
+            可以配合 https://www.w3schools.com/ 查看和練習</dd>
+        <dt>CSS</dt>
+        <dd>CSS 的全名為Cascading Style Sheets，是一種樣式表(Stylesheet) 語言</dd>
+        <dt>JavaScript</dt>
+        <dd>通常縮寫為JS，一種程式語言，能夠使網頁動態更新內容、控制多媒體，處理網頁前端的邏輯判斷等等</dd>
+        <dt>jQuery</dt>
+        <dd>是一個函式庫</dd>
+    </dl>
+
+    <!-- dl：description list -->
+    <!-- dt：description list term 專有名詞 -->
+    <!-- dd：description descriptions內容 -->
+    <!-- 這一堂課會學習到：
+    HTML
+    HTML的全名是HyperText Markup Language，編寫網頁的語言
+    可以配合 https://www.w3schools.com/ 查看和練習
+    CSS
+    CSS 的全名為Cascading Style Sheets，是一種樣式表(Stylesheet) 語言
+    JavaScript
+    通常縮寫為JS，一種程式語言，能夠使網頁動態更新內容、控制多媒體，處理網頁前端的邏輯判斷等等
+    jQuery
+    是一個函式庫 -->
+
+</body>
+
+</html>
