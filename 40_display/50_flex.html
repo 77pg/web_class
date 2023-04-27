@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* .demo {
+            display: flex;
+        } */
+
+        #reddiv_B,
+        #greendiv_B,
+        #bluediv_B {
+            flex: 3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h3> display:block 區塊，元素的寬度預設會撐到最大。</h3>
+    <div class="demo">
+        <div id="reddiv_A">Red</div>
+        <div id="greendiv_A">Green</div>
+        <div id="bluediv_A">Blue</div>
+    </div>
+
+    <hr>
+
+    <!-- 01. 試試看，在 .demo 加上 display:flex  -->
+    <!-- 02. 試試看，在 #reddiv_B、#greendiv_B、#bluediv_B 加上 flex:自訂的數值 -->
+    <!-- 父元素demo要套用display:flex; ，子元素red、green、blue才能使用flex:; -->
+    <div class="demo" style="display: flex;">
+        <div id="reddiv_B">Red (flex: 3)</div>
+        <div id="greendiv_B">Green (flex: 2)</div>
+        <div id="bluediv_B">Blue (flex: 1)</div>
+    </div>
+</body>
+
+</html>

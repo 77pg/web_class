@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>em and rem</title>
+    <style>
+        #div1 {
+            font-size: 3em;
+        }
+        /* div1為6倍，原先是3倍數 */
+        #div1child {
+            font-size: 2em;
+        }
+        /* 16 rem是相對於根元素 */
+        #div2{
+            font-size: 3rem
+        }
+        #div2chil{
+            font-size: 1rem;
+        }
+    </style>
+</head>
+
+
+<body>
+    <h4>比較 em 和 rem 的差異</h4>
+
+    <!-- 1. 測試 #div1 調整字型為 3em ； 
+                 #div1child 調整字型為 1em -->
+    <div id="div1">
+        dog
+        <div id="div1child">dog-1</div>
+    </div>
+    <hr>
+
+    <!-- 2. 測試 #div2 調整字型為 3rem ； 
+                 #div2child 調整字型為 1rem -->
+    <div id="div2">
+        dog-2
+        <div id="div2child">dog-3</div>
+    </div>
+
+</body>
+
+</html>

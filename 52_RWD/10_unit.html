@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>絕對單位跟相對單位</title>
+</head>
+
+<body>
+    <h4>CSS Units</h4>
+    <p><a href='https://www.w3schools.com/cssref/css_units.asp'>https://www.w3schools.com/cssref/css_units.asp</a></p>
+    <h4>PX to EM Conversion</h4>
+    <p><a href='https://www.w3schools.com/cssref/css_pxtoemconversion.asp'>https://www.w3schools.com/cssref/css_pxtoemconversion.asp</a></p>
+    <hr>
+
+    <h3>絕對單位：不會繼承父元素的設定</h3>
+    <p style="font-size:1in">海賊王萬歲!!(1吋)</p>
+    <p style="font-size:2.54cm">海賊王萬歲!!(2.54公分)</p>
+    <p style="font-size:25.4mm">海賊王萬歲!!(25.4公厘)</p>
+    <p style="font-size:6pc">海賊王萬歲!!(6 picas)</p>
+    <p style="font-size:72pt">海賊王萬歲!!(72 points)</p>
+
+    <hr>
+    <h2> px 單位注意事項 </h2>
+    <p style="font-size:16px">海賊王萬歲!!( 16px )</p>
+    <p style="font-size:10px">海賊王萬歲!!( 10px )</p>
+    <!-- 在瀏覽器縮放為100%的情況下，小於10px以後，看起來一模一樣，使用上要小心 -->
+    <p style="font-size:8px">海賊王萬歲!!( 8px )</p>
+    <p style="font-size:6px">海賊王萬歲!!( 6px )</p>
+    <!-- 如果真的要在小，可透過 transform: scale 樣式改變 ，transform-origin基準點-->
+    <p style="transform: scale(0.6); transform-origin:0 0;">海賊王萬歲!!(transform: scale(0.6))</p>
+
+    <hr>
+
+    <h3>相對單位：會參考父元素的設定而有一定的變化</h3>
+   
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</body>
+
+</html>

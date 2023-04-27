@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@media</title>
+    <style>
+        /* 觀察並試著製作出對應的效果 */
+
+        /* 裝置寬度小於 700px */
+        /* div 背景設定藍色 */
+        /* 隱藏 h1 */
+        @media screen and (max-width:700px) {
+            div {
+                background-color: blue;
+            }
+
+            h1 {
+                /* 保留空間，visibility能見度設為隱藏 */
+                visibility: hidden;
+            }
+        }
+
+        /* 裝置寬度大於 700px 小於1000px */
+        /* div 背景設定綠色 */
+        @media screen and (min-width:700px) and (max-width:1000px){
+            div {
+                background-color: green;
+            }
+        }
+    
+
+        /* 裝置寬度大於 1000px */
+        @media screen and (min-width:1000px) {
+            div {
+                background-color: pink;
+            }
+        }
+        /* div 背景設定粉紅色 */
+    </style>
+</head>
+
+<body>
+    <h1>Apple</h1>
+    <div style="font-size: 3rem; padding: 10px;">Cat</div>
+
+</body>
+
+</html>

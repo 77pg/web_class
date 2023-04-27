@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        /* exmaple 01. */
+        #div_A {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            /* 自定義動畫名稱 */
+            animation-name: example;
+            /* 動畫要花多少時間 */
+            animation-duration: 5s;
+        }
+
+        @keyframes example {
+            from { background-color: blue; }
+            to   { background-color: yellow; }
+        }
+
+        /* example 02. */
+        #div_B {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            animation: example2;
+            animation-duration: 10s;
+            /* 動畫持續進行 */
+            animation-iteration-count: infinite;
+        }
+        @keyframes example2{
+            0%{background-color: red;}
+            25%{background-color: blue;}
+            50%{background-color: yellow;}
+            75%{background-color: green;}
+            100%{background-color: red;}
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div id="div_A"></div>
+    <div id="div_B"></div>
+</body>
+
+</html>
