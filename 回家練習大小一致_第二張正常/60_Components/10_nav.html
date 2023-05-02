@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.nav</title>
+    <link rel="stylesheet" href="../_css/bootstrap.css">
+    <script src="../_js/bootstrap.bundle.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h4>官方網站</h4>
+        <p><a
+                href="https://getbootstrap.com/docs/5.2/components/navs-tabs/">https://getbootstrap.com/docs/5.2/components/navs-tabs/</a>
+        </p>
+        <h4>Bootstrap Navs</h4>
+        <p><a
+                href="https://www.w3schools.com/bootstrap5/bootstrap_navs.php">https://www.w3schools.com/bootstrap5/bootstrap_navs.php</a>
+        </p>
+
+        <hr>
+
+        <!-- 10. 加入一個 <ul> 標籤，並添加類別 .nav  -->
+        <!-- 20. 加入 4 個超連結： GitHub 、 Twitter 、 Examples 、 About  -->
+        <!-- 21. 超連結標籤加入 .nav-link -->
+
+        <!-- 25. <ul> 標籤 套用 .nav-fill 後，元素是否有分散對齊？ -->
+        <!-- CSS有設定nav-item，在li加上nav-item有分散對齊 -->
+
+        <!-- 30. 該如何讓超連結的被選取時底色會改變? -->
+        <!-- 在ul加上nav-pills，在a標籤加上JS -->
+
+        <!-- 50. 該如何讓選單在小屏幕時，改為單欄顯示 -->
+
+        <!-- 60. 該如何讓導覽被點選時，出現對應的資訊？ -->
+        <!--   a.  <a>元素 加入 href="#元素id" -->
+        <!--   b.  <a>元素 加入 data-bs-toggle="pill" -->
+        <!--   c.  製作內容： .tab-content > .tab-pane  -->
+        <!--   d.  製作內容： 包含 .tab-pane 的元素必須有 id 屬性  -->
+        <!-- flex-row flex-md-column -->
+        <ul class="nav nav-fill nav-pills flex-column flex-md-row ">
+            <li class="nav-item"><a data-bs-toggle="pill" class="nav-link" href="#github">GitHub</a></li>
+            <li class="nav-item"><a data-bs-toggle="pill" class="nav-link" href="#twitter">Twitter</a></li>
+            <li class="nav-item"><a data-bs-toggle="pill" class="nav-link" href="#examples">Examples</a></li>
+            <li class="nav-item"><a data-bs-toggle="pill" class="nav-link" href="#about">About</a></li>
+        </ul>
+        <!-- https://www.GitHub.com -->
+        <!-- https://www.Twitter.com -->
+        <!-- https://www.Examples.com -->
+        <!-- https://www.About.com -->
+        
+        <div class="tab-content">
+            <div class="tab-pane" id="github">
+                <h1>GitHub</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+        </div>
+        <div class="tab-content">
+            <div class="tab-pane" id="twitter">
+                <h1>Twitter</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+        </div>
+        <div class="tab-content">
+            <div class="tab-pane" id="examples">
+                <h1>Examples</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+        </div>
+        <div class="tab-content">
+            <div class="tab-pane" id="about">
+                <h1>About</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+        </div>
+        <br>
+
+
+
+
+    </div>
+</body>
+
+</html>

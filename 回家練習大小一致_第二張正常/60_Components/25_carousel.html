@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.carousel</title>
+    <link rel="stylesheet" href="../_css/bootstrap.css">
+    <script src="../_js/bootstrap.bundle.js"></script>
+
+</head>
+
+<body>
+
+
+    <div class="container">
+        
+        <h4>官方網站</h4>
+        <p><a href="https://getbootstrap.com/docs/5.2/components/carousel/">https://getbootstrap.com/docs/5.2/components/carousel/</a></p>
+        <h4>Bootstrap Carousel</h4>
+        <p><a href="https://www.w3schools.com/bootstrap5/bootstrap_carousel.php">https://www.w3schools.com/bootstrap5/bootstrap_carousel.php</a></p>
+
+        <hr>
+
+        <!-- 10. Carousel 類別結構 -->
+        <!--    .carousel                -->
+        <!--        .carousel-inner          -->
+        <!--            .carousel-item & .active -->
+        <!-- 測試圖片： -->
+        <!-- https://dummyimage.com/600x100/00ff5e/ffffff -->
+        <!-- https://dummyimage.com/600x100/ff8400/ffffff -->
+        <!-- https://dummyimage.com/600x100/f057c5/ffffff -->
+        
+        <!-- 20. 在最外層的容器，加入 data-bs-ride="carousel" -->
+        
+        <!-- 21. 在最外層的容器，加入類別 .slide -->
+        <div class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://dummyimage.com/600x100/00ff5e/ffffff">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://dummyimage.com/600x100/ff8400/ffffff">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://dummyimage.com/600x100/f057c5/ffffff">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

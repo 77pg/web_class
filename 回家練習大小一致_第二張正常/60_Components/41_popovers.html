@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>popovers</title>
+    <link rel="stylesheet" href="../_css/bootstrap.css">
+    <script src="../_js/bootstrap.bundle.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h4>官方網站</h4>
+        <p><a href="https://getbootstrap.com/docs/5.2/components/popovers/">https://getbootstrap.com/docs/5.2/components/popovers/</a></p>
+        <h4>Bootstrap Popover</h4>
+        <p><a href="https://www.w3schools.com/bootstrap5/bootstrap_popover.php">https://www.w3schools.com/bootstrap5/bootstrap_popover.php</a></p>
+
+        <hr>
+       
+        <!-- 10. 設置一個按鈕，並加入底下屬性 -->
+        <!--     a. title="popover header" -->
+        <!--     b. data-bs-toggle="popover" -->
+        <!--     c. data-bs-content="Some content inside the popover" -->
+       
+
+        <!-- 20. 加入屬性 data-bs-placement，修改提示位置 -->
+        <!--     data-bs-placement= "top" | "right" | "bottom" | "left" -->
+       
+        <!-- 30. 改變觸發 popover 的形式：滑鼠經過時顯示 -->
+        <!--     data-bs-trigger="hover" -->
+       
+    </div>
+
+    <script>
+        const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+    </script>
+
+</body>
+
+</html>

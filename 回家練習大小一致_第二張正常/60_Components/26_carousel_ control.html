@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.carousel</title>
+    <link rel="stylesheet" href="../_css/bootstrap.css">
+    <script src="../_js/bootstrap.bundle.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h4>官方網站</h4>
+        <p><a
+                href="https://getbootstrap.com/docs/5.2/components/carousel/#with-controls">https://getbootstrap.com/docs/5.2/components/carousel/#with-controls</a>
+        </p>
+        <hr>
+
+        <!-- 30. 改變播放速度，在外層容器增加 data-bs-interval="1000" -->
+        
+        <!-- 31. 加入控制播放上一張或者下一張功能 -->
+        <!-- button data-bs-target="#i1"，指向父元素-->
+        
+        <!-- 32. 加入指標提示使用者目前有多少項目 -->
+        <!-- <input type="text" aria-atomic="true"> -->
+
+        <div class="carousel slide" id="i1" data-bs-ride="carousel" data-bs-interval="3000">
+            <!-- 底層控制，用ID值指向父元素 -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#i1" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#i1" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#i1" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://dummyimage.com/600x100/00ff5e/ffffff">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://dummyimage.com/600x100/ff8400/ffffff">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://dummyimage.com/600x100/f057c5/ffffff">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#i1" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#i1" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
