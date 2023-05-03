@@ -1,0 +1,6 @@
+1.首頁固定在網頁最上方: 40_Utilities/40_fixed-top.html
+2.頁首項目對齊方式: 40_Utilities/ 35_flex.html
+3.[類似影片]區塊依照網頁寬度決定是否留白邊: 20_Layout/15_container.html
+4.[類似影片]區塊依照網頁寬度調整每列顯示數量: 20_Layout/20_grid.html
+5.漸層效果: CSS/33_filter/20_linear-gradient.html
+6.兩個區塊重疊: CSS/50_position
