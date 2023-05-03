@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Bootstrap網頁練習_作業/css/bootstrap.css">
+    <link rel="stylesheet" href="../Bootstrap網頁練習_作業/css/netflix_style.css">
+    <script src="../Bootstrap網頁練習_作業/_js/bootstrap.bundle.js"></script>
+</head>
+
+<body>
+    <!-- 不限時數的節目與電影 -->
+
+    <!--  導覽列 -->
+    <div>
+        <div class="header1 fixed-top">
+            <div class="d-flex p-2">
+                <div class="p-2">
+                    <a href="https://www.netflix.com/tw/">
+                        <!--  class="img-fluid" -->
+                        <img src=".//img/logonetflix.png" style="width: 100px;">
+                        <span class="screen-reader-text">Netflix首頁</span>
+                    </a>
+                </div>
+                <div class="p-2 text-white ms-auto">
+                    <p>不限時數的節目與電影</p>
+                </div>
+                <div class="p-2 text-white">
+                    <button class="btn bg-danger text-white">立即加入</button>
+                </div>
+                <div class="p-2 text-white">
+                    <button class="btn text-white">登入</button>
+                </div>
+            </div>
+
+        </div>
+        <section>
+            <!-- 首頁神隱少女，背景圖在CSS.banner設定 -->
+            <div class="container-fluid banner" style="margin-top: 50px;padding: 50px;">
+                <div>
+                    <div class="logo-container">
+                        <img class="logo" src="../Bootstrap網頁練習_作業/img/spirited_away_logo.jpg" alt="神隱少女字">
+                        <h6>2001 | 年齡分級：7+ | 2 小時 5 分鐘 | 動漫電影</h6>
+                        <p>
+                            千尋意外來到一個由女巫治理的魔法世界。
+                            在這裏，所有違抗女巫的人都被變成了動物。
+                        </p>
+                        <span style="color: grey;font-size: small;">
+                            主演：<span>柊瑠美，入野自由，夏木麻里</span>
+                        </span>
+                        <br><br>
+                    </div>
+                    <!-- <div class="banner ms-auto" style="height: 1000px;"></div> -->
+                </div>
+                <!-- 漸層圖片 -->
+                <!-- <div class="banner">
+                    <img src="../Bootstrap網頁練習_作業/img/spirited_away.jpg" alt="">
+                </div> -->
+            </div>
+        </section>
+
+        <div class="container-fluid p-3 d1" style="text-align: center;color: gray;">
+            這部傑作出自宮崎駿之手，是奧斯卡史上唯一一部抱回最佳動畫片的非英語電影。
+        </div>
+        <div class="d1">
+            <h2>類似影片</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <!--  img style="width: 100%; padding: 5px;" -->
+                    <a href="https://www.netflix.com/tw/title/70028883"><img src="./img/img_01.jpg" alt="霍爾的移動城堡"></a>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <a href="https://www.netflix.com/tw/title/60032294"><img src="./img/img_02.jpg" alt="龍貓"></a>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <a href="https://www.netflix.com/tw/title/60027106"><img src="./img/img_03.jpg" alt="魔女宅急便"></a>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <a href="https://www.netflix.com/tw/title/70106454"><img src="./img/img_04.jpg" alt="崖上的波妞"></a>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <a href="https://www.netflix.com/tw/title/70019058"><img src="./img/img_05.jpg" alt="貓的報恩"></a>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <a href="https://www.netflix.com/tw/title/60032294"><img src="./img/img_06.jpg" alt="天空之城"></a>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <a href="https://www.netflix.com/tw/title/60027106"><img src="./img/img_07.jpg" alt="借物少女艾利提"></a>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <a href="https://www.netflix.com/tw/title/70106454"><img src="./img/img_08.jpg" alt="心之谷"></a>
+                </div>
+
+            </div>
+            <div class="footer">
+                Netflix臺灣
+            </div>
+        </div>
+
+    </div>
+
+    <!-- 神隱少女
+    2001 | 年齡分級：7+ | 2 小時 5 分鐘 | 動漫電影
+    千尋意外來到一個由女巫治理的魔法世界。在這裏，所有違抗女巫的人都被變成了動物。
+    主演：柊瑠美，入野自由，夏木麻里 -->
+
+    <!-- 這部傑作出自宮崎駿之手，是奧斯卡史上唯一一部抱回最佳動畫片的非英語電影。 -->
+
+    <!-- 類似影片 -->
+    <!-- https://www.netflix.com/tw/title/70028883 -->
+    <!-- https://www.netflix.com/tw/title/60032294 -->
+    <!-- https://www.netflix.com/tw/title/60027106 -->
+    <!-- https://www.netflix.com/tw/title/70106454 -->
+
+    <!-- https://www.netflix.com/tw/title/70019058 -->
+    <!-- https://www.netflix.com/tw/title/60027393 -->
+    <!-- https://www.netflix.com/tw/title/70216227 -->
+    <!-- https://www.netflix.com/tw/title/70045021 -->
+
+</body>
+
+</html>

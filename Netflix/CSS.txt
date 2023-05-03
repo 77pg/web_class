@@ -1,0 +1,90 @@
+
+.header1{
+    background-color: black;
+}
+.header1>img {
+    height: 24px;
+    width: 48px;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 20;
+    display: flex;
+    
+}
+
+.screen-reader-text {
+    left: -9999px;
+    position: absolute;
+    top: -9999px;
+}
+
+h1 {
+    font-size: 72px;
+    color: white;
+}
+
+h2{
+    padding-top: 100px;
+    color: white;
+}
+
+h6 {
+    color: gray;
+    font-size: small;
+}
+
+p,
+span {
+    color: white;
+}
+
+.logo-container {
+    position: relative;
+    width: 90%;
+}
+
+.logo {
+    max-width: 500px;
+    width: 100%;
+}
+
+.banner {
+    position: relative;
+    /* height: 600px; */
+    width: 100%;
+    background-image:
+    linear-gradient(to right, black,
+    rgba(255, 255, 255, 0)),
+    url("../img/spirited_away.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.d1{
+    background-color: black;
+    border: 1px gray solid;
+    padding: 50px;
+}
+.img00{
+    display: block;
+    width: 100%;
+    height: min-content;
+    /* background-clip: content-box; */
+}
+.footer{
+    /* background-color: black; */
+    color: gray;
+    margin-top: 50px;
+
+}
+/* .img00>div{
+    border: 1px gray solid;
+    background-clip: content-box;
+} */
+/* .row>div{
+    padding: 5px;
+} */
+.row>div>a>img{
+    width: 100%;
+    padding-top: 20px;
+}
